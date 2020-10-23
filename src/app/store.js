@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import canvasReducer from '../features/fabricCanvas/canvasSlice';
 
 export default configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
+	reducer: {
+		canvas: canvasReducer,
+	},
 });
