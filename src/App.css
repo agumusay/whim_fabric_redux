@@ -2,7 +2,7 @@
 	display: flex;
 }
 .images-tab {
-	height: 100vh;
+	height: 400px;
 	background-color: aquamarine;
 	width: 10%;
 	border: 10px solid red;
